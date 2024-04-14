@@ -1,3 +1,3 @@
 export default function MessageInput() {
-  return <div className="message-input">MessageInput</div>;
+  return <input className="message-input" />;
 }

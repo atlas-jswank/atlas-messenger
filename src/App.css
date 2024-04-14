@@ -115,10 +115,11 @@
 
 .messages-panel {
   height: calc(100vh - 12rem);
-  margin: 1rem 2rem;
+  margin: 1rem 2rem 0 2rem;
   overflow: scroll;
   border: 2px solid var(--blue-light);
-  border-radius: 2rem;
+  border-top-right-radius: 2rem;
+  border-top-left-radius: 2rem;
   background: var(--off-white-light);
 }
 
@@ -126,7 +127,8 @@
   height: 8rem;
   background-color: var(--blue);
   color: var(--beige);
-  border-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+  border-bottom-left-radius: 2rem;
   margin: 1rem 2rem;
   margin-top: 0;
   padding: 1rem;
